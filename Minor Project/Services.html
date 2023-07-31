@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <script src="jquery.js"> </script>
+    <style>
+        #Q1{
+        width:200px;
+        padding:10px;
+        background-color:rgb(15, 168, 224);
+        color:white;
+        cursor:pointer;
+        }
+        #A1{
+        width:200px;
+        padding:10px;
+        height:300px;
+        background-color:yellow;
+        }
+        #Q2{
+        width:200px;
+        padding:10px;
+        background-color:rgb(15, 168, 224);
+        color:white;
+        cursor:pointer;
+        }
+        #A2{
+        width:200px;
+        padding:10px;
+        height:300px;
+        background-color:yellow;
+        }
+        #Q3{
+        width:200px;
+        padding:10px;
+        background-color:rgb(15, 168, 224);
+        color:white;
+        cursor:pointer;
+        }
+        #A3{
+        width:200px;
+        padding:10px;
+        height:300px;
+        background-color:yellow;
+        }
+        #Q4{
+        width:200px;
+        padding:10px;
+        background-color:rgb(15, 168, 224);
+        color:white;
+        cursor:pointer;
+        }
+        #A4{
+        width:200px;
+        padding:10px;
+        height:300px;
+        background-color:yellow;
+        }
+        </style>
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">CAREER DREAMS</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="About us.html">About us</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="Services.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="Services.html">Touchless Service</a></li>
+                                <li><a class="dropdown-item" href="Services.html">Redefined Structure</a></li>
+                                <li><a class="dropdown-item" href="Services.html">Agility and Flexibility</a></li>
+                                <li><a class="dropdown-item" href="Services.html">The Outdoors</a></li>
+                              </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="Contact Us.html">Contact Us</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="text-center text-danger">CAREER DREAMS SERVICES</h2>
+            <div id="Q1"> Touchless Career Dreams Services </div>
+  <div id="A1"> 
+    <p class="text-dark">The Technology is growing very fastly throught the world.Many new inventions are invented by scientists.in that one is Touchless Service.Depolying digital tools like Artifical Intelligance(AI).</p>
+  </div>
+  <br>
+  <div id="Q2"> Redefined Structure Career Dreams Services </div>
+  <div id="A2"> 
+    <p class="text-dark">With airlines grounding their fleets, revenue generation has become a challenge for the travel and hospitality industry. This has compelled them to raise ticket and reservation costs is high.</p>
+  </div>
+  <br>
+  <div id="Q3"> Agility and Flexibility Career Dreams Services </div>
+  <div id="A3"> 
+    <p class="text-dark">One important lesson that the ongoing COVID-19 pandemic has taught us is to be flexible. The travel industry is no exception to it. Flexibility will allow the industry to adapt to changes demanded by the situation.</p>
+  </div>
+  <br>
+  <div id="Q4"> The Outdoors Career Dreams Services </div>
+  <div id="A4"> 
+    <p class="text-dark">Social distancing is imperative to contain the spread of COVID-19. While selecting a destination, travelers are likely to opt for outdoor, open spaces such as beaches, forests, national parks, wildlife reserves.</p>
+  </div>
+  <script type="text/javascript">
+  $(document).ready(function(){
+      $("#A1").hide();
+      $("#Q1").click(function(){
+          $("#A1").slideToggle(1000);
+          });
+          $("#A2").hide();
+      $("#Q2").click(function(){
+          $("#A2").slideToggle(1000);
+          });
+      $("#A3").hide();
+      $("#Q3").click(function(){
+          $("#A3").slideToggle(1000);
+          });
+      $("#A4").hide();
+      $("#Q4").click(function(){
+          $("#A4").slideToggle(1000);
+          });
+  });
+  </script>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
